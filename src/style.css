@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #151515;
+  color: #ffffff;
+  font-family: "Helvetica Neue", "Ariel";
+  font-size: calc(100vw / 1920 * 10);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  user-select: none;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.main {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.p {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.c {
+  padding: 2rem;
+}
+
+.f {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 6;
+}
+
+.nc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.n {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate3d(-50%, -50%, 0);
+}
